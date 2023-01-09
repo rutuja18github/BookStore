@@ -46,4 +46,21 @@ export const createNewUser = async (req, res, next) => {
   }
 };
 
-
+/**
+ * Controller to login a user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const signin = async (req, res, next) => {
+  try {
+    const data = await UserService.userSignin(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'user login successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
