@@ -64,3 +64,22 @@ export const signin = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to forgot password 
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const forgotPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.forgotPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'forget password successfully done,check email for token'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

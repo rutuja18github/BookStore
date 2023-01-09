@@ -188,3 +188,17 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-01-09T14:37:15.156Z"}
+error: 
+    status - 500 
+    message - ReferenceError: sendMail is not defined
+    at _callee3$ (D:\NodeJS\BookStore\src\services\/user.service.js:43:92)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-09T14:59:57.606Z"}

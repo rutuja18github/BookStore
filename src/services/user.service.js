@@ -35,4 +35,16 @@ export const userSignin = async (body) => {
   }
 };
 
+//Forgot password
+export const forgotPassword = async (body) => {
+  // To check email id is register or not in database
+  const data = await User.findOne({ email: body.email });
+  if (data !== null) {
+    var passwordToken = jwt.sign({email: data.email, id: data._id}, process.env.SECRET_KEY);
+    return passwordToken;
+  }
+  else {
+    throw new Error("Invalid Email ID");
+  }
+};
 

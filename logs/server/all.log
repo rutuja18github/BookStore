@@ -244,3 +244,21 @@ info: Connected to the database. {"timestamp":"2023-01-09T14:38:06.889Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T14:38:31.970Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T14:38:36.602Z"}
 info: Connected to the database. {"timestamp":"2023-01-09T14:38:39.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T14:59:25.756Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T14:59:28.412Z"}
+error: 
+    status - 500 
+    message - ReferenceError: sendMail is not defined
+    at _callee3$ (D:\NodeJS\BookStore\src\services\/user.service.js:43:92)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgot 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-09T14:59:57.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:00:19.840Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:00:22.568Z"}
