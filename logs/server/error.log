@@ -1,0 +1,38 @@
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "signup" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/signup 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-09T09:23:07.759Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/user.service.js:13:11)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-09T09:24:10.191Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/user.service.js:13:11)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-09T09:32:22.881Z"}
