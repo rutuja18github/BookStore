@@ -19,4 +19,21 @@ export const getAllBooks = async (req, res, next) => {
     next(error);
   }
 };
-
+/**
+ * Controller to get Note for particular user using id
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const getBook = async (req, res, next) => {
+  try {
+    const data = await BookService.getBook(req.params._id);
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'Particular note fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

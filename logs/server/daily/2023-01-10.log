@@ -107,3 +107,5 @@ info: Connected to the database. {"timestamp":"2023-01-10T04:38:00.865Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T04:38:07.523Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T04:38:13.461Z"}
 info: Connected to the database. {"timestamp":"2023-01-10T04:38:19.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T04:42:36.730Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T04:42:40.061Z"}

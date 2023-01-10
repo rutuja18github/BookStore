@@ -6,4 +6,8 @@ export const getAllBooks = async () => {
   return data;
 };
 
-
+//get a book by id
+export const getBook = async (_id) => {
+    const data = await Books.findById(_id);
+    return data;
+  };
