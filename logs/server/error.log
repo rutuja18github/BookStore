@@ -236,3 +236,60 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-01-10T02:21:50.782Z"}
+error: 
+    status - 500 
+    message - TypeError: BookService.getAllBooks is not a function
+    at _callee$ (D:\NodeJS\BookStore\src\controllers\/book.controller.js:12:36)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllBooks (D:\NodeJS\BookStore\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\NodeJS\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\NodeJS\BookStore\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\NodeJS\BookStore\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\NodeJS\BookStore\node_modules\helmet\dist\index.js:142:6) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-10T04:24:06.417Z"}
