@@ -262,3 +262,73 @@ error:
    {"timestamp":"2023-01-09T14:59:57.606Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:00:19.840Z"}
 info: Connected to the database. {"timestamp":"2023-01-09T15:00:22.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:07:11.217Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:07:14.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:09:44.220Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:09:47.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:11:08.483Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:11:11.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:11:41.335Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:11:43.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:30:40.802Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:30:43.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:30:56.690Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:30:59.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:31:18.134Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:31:20.647Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is not allowed 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-09T15:31:42.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:35:24.661Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:35:27.330Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:37:39.686Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:37:42.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:37:51.333Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:37:53.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:38:28.149Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:38:30.784Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee4$ (D:\NodeJS\BookStore\src\services\/user.service.js:70:20)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/reset 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-09T15:38:34.016Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-09T15:43:39.337Z"}
+info: Connected to the database. {"timestamp":"2023-01-09T15:43:42.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T02:16:58.875Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T02:17:02.460Z"}
+error: 
+    status - 500 
+    message - Error: Enter Password is invalid
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/user.service.js:31:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-10T02:21:50.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T03:03:46.522Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T03:03:50.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T03:05:07.099Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T03:05:10.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T03:05:29.207Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T03:05:32.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T03:06:55.342Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T03:06:59.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T03:08:36.379Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T03:08:39.607Z"}
