@@ -4,7 +4,9 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
-//route to create a new user
+//route to create a new cart and add book into it
 router.post('/:_id',userAuth, cartController.addToCart);
+
+router.post('/remove/:_id',userAuth, cartController.removeBook);
 
 export default router;

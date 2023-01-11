@@ -1048,3 +1048,368 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T1
 info: Connected to the database. {"timestamp":"2023-01-10T12:00:44.610Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T12:06:26.463Z"}
 info: Connected to the database. {"timestamp":"2023-01-10T12:06:29.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T12:14:45.677Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T12:14:48.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T12:15:25.906Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T12:15:33.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-10T12:18:55.508Z"}
+info: Connected to the database. {"timestamp":"2023-01-10T12:18:58.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T05:40:42.799Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:40:45.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T05:45:33.901Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:45:36.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T05:46:03.496Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T05:46:06.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:11:43.960Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:11:46.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:21:40.950Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:21:43.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:22:57.167Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:22:59.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:24:45.879Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:24:48.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:28:08.941Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:28:11.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:28:33.191Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:28:36.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:29:08.573Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:29:11.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:30:46.531Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:30:49.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:32:36.735Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:32:39.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:37:16.464Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:37:19.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:38:52.335Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:38:55.134Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215893e05253301a4fda5d" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart//6215893e05253301a4fda5d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T08:40:50.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T08:42:50.972Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T08:42:53.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:03:45.324Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:03:47.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:07:25.547Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:07:28.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:07:48.379Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:07:51.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:08:59.675Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:09:02.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:09:16.010Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:09:18.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:10:57.503Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:11:01.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:12:43.692Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:12:46.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:20:39.717Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:20:42.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:25:10.850Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:25:13.505Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:27:43.662Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:27:47.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:28:26.907Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:28:29.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:30:54.122Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:30:57.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:32:09.184Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:32:14.314Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:32:50.883Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:32:53.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:32:57.797Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:33:01.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:36:11.576Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:36:14.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:38:35.307Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:38:38.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:38:46.818Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:38:49.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:39:23.684Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:39:26.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:43:04.715Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:43:08.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:43:58.862Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:44:01.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:46:37.548Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:46:40.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:47:36.810Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:47:39.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:48:31.059Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:48:33.707Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:50:50.529Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:50:54.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:52:29.346Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:52:32.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T09:53:20.625Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T09:53:23.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:00:56.093Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:00:58.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:01:07.274Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:01:09.885Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:57:29)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215892405253301a4fda5d2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:05:20.175Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:57:29)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/621588f105253301a4fda5d0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:06:25.154Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:57:29)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215892405253301a4fda5d2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:06:45.170Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee$ (D:\NodeJS\BookStore\src\services\/user.service.js:9:11)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:11:11.453Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\NodeJS\BookStore\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\NodeJS\BookStore\src\middlewares\/auth.middleware.js:22:30)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\NodeJS\BookStore\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\NodeJS\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\NodeJS\BookStore\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\NodeJS\BookStore\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/cart/6215892405253301a4fda5d2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:11:52.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:25:13.199Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:25:21.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:25:30.314Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:25:32.904Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:57:29)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215178d05253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:36:58.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:37:33.665Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:37:41.471Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:57:29)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215178d05253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:37:52.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:38:28.126Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:38:30.688Z"}
+error: 
+    status - 500 
+    message - Error: book not exist in cart
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:71:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215178d05253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:39:06.841Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:51:05.284Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:51:07.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:51:34.125Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:51:36.684Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215892405253301a4fda5d" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215892405253301a4fda5d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:52:06.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:53:55.171Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:53:57.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:54:10.124Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:54:12.582Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215892405253301a4fda5d" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215892405253301a4fda5d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:54:18.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T10:54:48.645Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T10:54:51.207Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215892405253301a4fda5d" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215892405253301a4fda5d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:55:00.260Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "4543" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/4543 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T10:58:53.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:02:53.441Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:02:56.138Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215892405253301a4fda5" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215892405253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T11:03:03.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:03:47.242Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:03:49.764Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215892405253301a4fda5" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215892405253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T11:03:57.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:04:37.162Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:04:39.864Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215892405253301a4fda5" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215892405253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-11T11:04:49.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:05:00.444Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:05:03.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:09:15.477Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:09:18.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:16:01.999Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:16:04.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:16:28.452Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:16:30.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:17:21.873Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:17:24.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-11T11:19:36.263Z"}
+info: Connected to the database. {"timestamp":"2023-01-11T11:19:38.825Z"}
