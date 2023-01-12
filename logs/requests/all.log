@@ -641,3 +641,57 @@ info: ::1 - - [12/Jan/2023:07:23:40 +0000] "POST /api/v1/cart/remove/62158924052
 
 info: ::1 - - [12/Jan/2023:07:23:58 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 655 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [12/Jan/2023:08:00:34 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 273 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:01:10 +0000] "GET /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:02:27 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:02:44 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 655 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:07:40 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:20:15 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 655 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:20:21 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:20:57 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 500 210 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:24:28 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 500 210 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:25:19 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:25:48 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:30:40 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 500 141 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:33:47 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 153 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:36:30 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 281 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:54:17 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:56:32 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:57:16 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:08:59:45 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:02:28 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d7 HTTP/1.1" 500 53 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:03:49 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:04:57 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:05:30 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:10:08 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:10:15 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 200 453 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:10:57 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 200 324 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:11:34 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [12/Jan/2023:09:11:45 +0000] "POST /api/v1/wishlist/6215892405253301a4fda5d2 HTTP/1.1" 200 453 "-" "PostmanRuntime/7.30.0"
+
