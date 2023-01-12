@@ -7,6 +7,7 @@ const router = express.Router();
 //route to create a new cart and add book into it
 router.post('/:_id',userAuth, cartController.addToCart);
 
+//route to remove book from cart 
 router.post('/remove/:_id',userAuth, cartController.removeBook);
 
 export default router;

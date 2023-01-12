@@ -1791,3 +1791,126 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-01-12T09:11:34.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:08:51.646Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:08:54.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:13:38.544Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:13:41.223Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\NodeJS\BookStore\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\NodeJS\BookStore\src\middlewares\/auth.middleware.js:22:30)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (D:\NodeJS\BookStore\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:284:15
+    at param (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\NodeJS\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\NodeJS\BookStore\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\NodeJS\BookStore\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/wishlist/remove/6215892405253301a4fda5d2 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-12T10:14:21.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:15:48.710Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:15:51.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:17:51.786Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:17:54.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:19:53.243Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:19:55.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:21:31.711Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:21:35.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:23:10.769Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:23:13.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:23:23.008Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:23:25.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:24:24.013Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:24:28.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:24:36.588Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:24:38.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T10:25:16.851Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T10:25:19.365Z"}
+error: 
+    status - 500 
+    message - Error: Book not exist
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/wishlist.service.js:50:23)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/remove/6215892405253301a4fda5d7 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-12T10:26:02.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-12T11:29:45.125Z"}
+info: Connected to the database. {"timestamp":"2023-01-12T11:29:47.811Z"}
+error: 
+    status - 500 
+    message - Error: Book all ready exist in wishlist 
+    at _callee$ (D:\NodeJS\BookStore\src\services\/wishlist.service.js:30:23)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-12T11:30:42.416Z"}
+error: 
+    status - 500 
+    message - Error: Book all ready exist in wishlist 
+    at _callee$ (D:\NodeJS\BookStore\src\services\/wishlist.service.js:30:23)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/621588d505253301a4fda5cf 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-12T11:36:15.252Z"}

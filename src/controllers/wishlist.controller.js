@@ -14,5 +14,19 @@ export const addToWishlist =async (req,res,next) =>{
     catch(error){
         next(error)
     }
-
 }
+
+//Controller to remove book into wishlist
+export const removeBook = async (req,res,next) =>{
+    try{
+        const data= await wishlistService.removeBookFromWishlist(req.params._id,req.body);
+        res.status(HttpStatus.OK).json({
+        code:HttpStatus.OK,
+        data:data,
+        message:'Book removed to wishlist successfully'
+        })
+    }catch(error){
+        next(error);
+    }
+}
+

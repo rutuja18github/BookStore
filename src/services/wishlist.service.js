@@ -35,3 +35,22 @@ export const addBookToWishlist = async (_id, body) => {
         throw new Error("Book dosen't exist");
     }
 }
+
+export const removeBookFromWishlist =async (_id , body) =>{
+    const wishlist=await Wishlist.findOne({userId : body.userId });
+       console.log(wishlist);
+       if(wishlist != null){
+            const bookCheck = await wishlist.books.find((book) => book._id == _id)
+            if(bookCheck != null){
+              await wishlist.books.splice(wishlist.books.findIndex((item) => item._id == _id),1)
+              wishlist.save();
+              return wishlist
+            }
+            else{
+                throw new Error("Book not exist");
+            }
+       }
+       else{
+        throw new Error("Wishlist dosen't exist");
+       }
+}
