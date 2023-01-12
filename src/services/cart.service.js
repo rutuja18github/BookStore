@@ -6,15 +6,21 @@ import Cart from '../models/cart.model';
  **/
 export const addBookToCart = async (_id, body) => {
   const data = await Books.findOne({ _id: _id });
-  console.log(data)
+  let bookDetails = {
+    'productId': data._id,
+    'description': data.description,
+    'bookName': data.bookName,
+    'bookImage': data.bookImage,
+    'author': data.author,
+    'price': data.price
+}
+
   if (data != null) {
     const book = []
     const cartData = await Cart.findOne({ userId: body.userId });
     if (cartData == null) {
-      data.quantity = 1
-      book.push(data)
+      book.push(bookDetails)
       body.books = book
-      //console.log(book)
       const Createdata = await Cart.create({
         userId: body.userId,
         cart_total: data.price,
@@ -63,7 +69,7 @@ export const removeBookFromCart = async (_id, body) => {
         return cartData
       } else {
         cartData.cart_total -= bookExist.price
-        const removedBook = await cartData.books.splice(cartData.books.findIndex(a => a._id == _id), 2)
+        const removedBook = await cartData.books.splice(cartData.books.findIndex(a => a._id == _id), 1)
         cartData.save();
         return cartData
       }

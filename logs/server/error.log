@@ -977,3 +977,41 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-01-11T11:04:49.346Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215178d05253301a4fda" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-12T04:04:33.802Z"}
+error: 
+    status - 500 
+    message - Error: Book dosen't exist
+    at _callee$ (D:\NodeJS\BookStore\src\services\/cart.service.js:45:11)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c7 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-12T04:06:13.743Z"}
+error: 
+    status - 500 
+    message - Error: Book dosen't exist
+    at _callee$ (D:\NodeJS\BookStore\src\services\/cart.service.js:45:11)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c7 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-12T07:07:52.175Z"}
