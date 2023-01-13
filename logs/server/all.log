@@ -1914,3 +1914,5 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-01-12T11:36:15.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T09:10:11.276Z"}
+info: Connected to the database. {"timestamp":"2023-01-13T09:10:19.220Z"}

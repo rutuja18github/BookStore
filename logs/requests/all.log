@@ -721,3 +721,5 @@ info: ::1 - - [12/Jan/2023:11:36:42 +0000] "POST /api/v1/wishlist/621588af052533
 
 info: ::1 - - [12/Jan/2023:11:36:56 +0000] "PUT /api/v1/wishlist/remove/621588af05253301a4fda5ce HTTP/1.1" 200 612 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [13/Jan/2023:09:11:27 +0000] "POST /api/v1/customer HTTP/1.1" 200 648 "-" "PostmanRuntime/7.30.0"
+
