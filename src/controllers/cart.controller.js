@@ -38,3 +38,23 @@ export const removeBook = async (req, res, next) => {
     next(error);
   }
 };
+
+
+/**
+ * Controller to remove book from cart
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const purchaseBook = async (req, res, next) => {
+  try {
+    const data = await cartService.purchasedBook(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Book Purchased from cart successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

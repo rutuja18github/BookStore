@@ -10,4 +10,7 @@ router.post('/:_id',userAuth, cartController.addToCart);
 //route to remove book from cart 
 router.post('/remove/:_id',userAuth, cartController.removeBook);
 
+//route to Purchased book  
+router.put('/purchase',userAuth, cartController.purchaseBook);
+
 export default router;

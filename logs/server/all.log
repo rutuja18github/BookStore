@@ -1916,3 +1916,11 @@ error:
    {"timestamp":"2023-01-12T11:36:15.252Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T09:10:11.276Z"}
 info: Connected to the database. {"timestamp":"2023-01-13T09:10:19.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T09:35:34.176Z"}
+info: Connected to the database. {"timestamp":"2023-01-13T09:35:36.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T09:36:01.798Z"}
+info: Connected to the database. {"timestamp":"2023-01-13T09:36:04.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T09:36:22.097Z"}
+info: Connected to the database. {"timestamp":"2023-01-13T09:36:24.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T09:38:14.327Z"}
+info: Connected to the database. {"timestamp":"2023-01-13T09:38:17.271Z"}

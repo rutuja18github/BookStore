@@ -81,3 +81,12 @@ export const removeBookFromCart = async (_id, body) => {
     throw new Error("cart dosen't exist");
   }
 };
+
+export const purchasedBook =async (body) =>{
+  const cartData = await Cart.findOneAndUpdate(
+    { userId: body.userId },
+    { isPurchased: true },
+    { new: true }
+    );
+    return cartData;
+}
