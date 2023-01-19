@@ -1,0 +1,70 @@
+info: ::1 - - [14/Jan/2023:00:28:52 +0000] "GET / HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Jan/2023:00:28:52 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Jan/2023:00:29:16 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Jan/2023:00:29:57 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Jan/2023:00:34:27 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Jan/2023:00:34:28 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Jan/2023:00:35:06 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [14/Jan/2023:04:35:05 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 271 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:35:37 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 271 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:35:52 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:36:19 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:36:59 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:37:25 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:39:48 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 200 335 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:40:39 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 200 335 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:40:41 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 200 336 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:40:49 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 336 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:42:05 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 327 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:42:13 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 327 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:42:57 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 512 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:43:12 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 512 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:43:20 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 512 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:45:54 +0000] "POST /api/v1/customer HTTP/1.1" 200 399 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:46:05 +0000] "POST /api/v1/customer HTTP/1.1" 200 536 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:46:24 +0000] "POST /api/v1/customer HTTP/1.1" 200 673 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:48:53 +0000] "POST /api/v1/customer HTTP/1.1" 200 810 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:51:06 +0000] "POST /api/v1/customer HTTP/1.1" 200 947 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:54:38 +0000] "PUT /api/v1/cart/purchase HTTP/1.1" 200 517 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:55:09 +0000] "POST /api/v1/customer HTTP/1.1" 200 792 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:04:56:53 +0000] "POST /api/v1/customer HTTP/1.1" 200 1091 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:05:00:24 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 273 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:05:00:42 +0000] "POST /api/v1/customer HTTP/1.1" 200 929 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:05:02:09 +0000] "POST /api/v1/customer HTTP/1.1" 200 400 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:05:02:49 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 200 282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [14/Jan/2023:05:02:57 +0000] "POST /api/v1/wishlist/621588af05253301a4fda5ce HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+

@@ -25,6 +25,7 @@ export const addCustomer=async (body) => {
     else{
         
         await customerData.address.push(customerAddress)
+        console.log(customerData)
         customerData.save();
         return customerData
     }

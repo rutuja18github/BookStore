@@ -4,3 +4,21 @@ info: ::1 - - [13/Jan/2023:09:37:28 +0000] "PUT /api/v1/cart/purchase HTTP/1.1" 
 
 info: ::1 - - [13/Jan/2023:09:39:05 +0000] "PUT /api/v1/cart/purchase HTTP/1.1" 200 660 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [13/Jan/2023:11:24:27 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 320 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:24:59 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 271 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:26:18 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:26:27 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 508 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:28:12 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:28:20 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 508 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:29:54 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:30:00 +0000] "POST /api/v1/cart/6215892405253301a4fda5d2 HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [13/Jan/2023:11:30:39 +0000] "PUT /api/v1/cart/purchase HTTP/1.1" 200 371 "-" "PostmanRuntime/7.30.0"
+

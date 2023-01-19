@@ -12,5 +12,7 @@ router.post('/remove/:_id',userAuth, cartController.removeBook);
 
 //route to Purchased book  
 router.put('/purchase',userAuth, cartController.purchaseBook);
+//get cart
+router.get('/get',userAuth, cartController.getCart);
 
 export default router;

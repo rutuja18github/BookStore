@@ -1,0 +1,28 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T01:17:30.415Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T01:17:33.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T06:23:24.693Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T06:23:27.384Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "${data._id}" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/$%7Bdata._id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T13:18:33.660Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "${data._id}" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/$%7Bdata._id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T13:18:40.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T15:24:24.818Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T15:24:27.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T18:17:38.569Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T18:17:40.861Z"}

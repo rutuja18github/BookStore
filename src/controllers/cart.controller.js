@@ -58,3 +58,17 @@ export const purchaseBook = async (req, res, next) => {
     next(error);
   }
 };
+
+
+export const getCart = async (req, res, next) => {
+  try {
+    const data = await cartService.getCartBooks(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Book fetch from cart successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

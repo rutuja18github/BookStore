@@ -1350,3 +1350,78 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-01-12T11:36:15.252Z"}
+error: 
+    status - 500 
+    message - Error: Book all ready exist in wishlist 
+    at _callee$ (D:\NodeJS\BookStore\src\services\/wishlist.service.js:30:23)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-14T05:02:57.464Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-16T19:35:00.160Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T02:50:23.134Z"}
+error: 
+    status - 500 
+    message - Error: Enter Password is invalid
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/user.service.js:31:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T02:51:44.064Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "${data._id}" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/$%7Bdata._id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T13:18:33.660Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "${data._id}" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/$%7Bdata._id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T13:18:40.083Z"}
+error: 
+    status - 500 
+    message - Error: Book out of stock
+    at _callee$ (D:\NodeJS\BookStore\src\services\/cart.service.js:47:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-19T05:42:46.362Z"}

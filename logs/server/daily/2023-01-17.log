@@ -1,0 +1,39 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-16T19:27:05.761Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T19:27:08.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-16T19:28:05.177Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T19:28:07.753Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-16T19:35:00.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T00:59:06.272Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T00:59:08.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T02:32:32.209Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T02:32:34.966Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T02:50:23.134Z"}
+error: 
+    status - 500 
+    message - Error: Enter Password is invalid
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/user.service.js:31:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T02:51:44.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T13:04:49.110Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T13:04:58.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T14:28:31.768Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T14:28:34.413Z"}

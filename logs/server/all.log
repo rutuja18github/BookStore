@@ -1924,3 +1924,164 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T0
 info: Connected to the database. {"timestamp":"2023-01-13T09:36:24.736Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T09:38:14.327Z"}
 info: Connected to the database. {"timestamp":"2023-01-13T09:38:17.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T11:23:53.720Z"}
+info: Connected to the database. {"timestamp":"2023-01-13T11:23:56.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-13T11:29:27.836Z"}
+info: Connected to the database. {"timestamp":"2023-01-13T11:29:30.669Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T00:28:14.443Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T00:28:17.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T00:34:16.923Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T00:34:21.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T00:35:00.222Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T00:35:03.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T04:33:37.375Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:33:40.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T04:39:28.032Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:39:30.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T04:40:20.935Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:40:23.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T04:41:39.337Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:41:42.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T04:41:46.605Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:41:49.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T04:43:41.978Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:43:44.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-14T04:50:52.469Z"}
+info: Connected to the database. {"timestamp":"2023-01-14T04:50:55.051Z"}
+error: 
+    status - 500 
+    message - Error: Book all ready exist in wishlist 
+    at _callee$ (D:\NodeJS\BookStore\src\services\/wishlist.service.js:30:23)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-14T05:02:57.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-16T19:27:05.761Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T19:27:08.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-16T19:28:05.177Z"}
+info: Connected to the database. {"timestamp":"2023-01-16T19:28:07.753Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-16T19:35:00.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T00:59:06.272Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T00:59:08.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T02:32:32.209Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T02:32:34.966Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T02:50:23.134Z"}
+error: 
+    status - 500 
+    message - Error: Enter Password is invalid
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/user.service.js:31:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-17T02:51:44.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T13:04:49.110Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T13:04:58.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-17T14:28:31.768Z"}
+info: Connected to the database. {"timestamp":"2023-01-17T14:28:34.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T01:17:30.415Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T01:17:33.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T06:23:24.693Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T06:23:27.384Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "${data._id}" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/$%7Bdata._id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T13:18:33.660Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "${data._id}" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/$%7Bdata._id%7D 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-18T13:18:40.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T15:24:24.818Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T15:24:27.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-18T18:17:38.569Z"}
+info: Connected to the database. {"timestamp":"2023-01-18T18:17:40.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T02:33:36.916Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T02:33:39.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:17:04.658Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:17:06.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:21:36.396Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:21:38.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:23:06.183Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:23:08.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:25:33.692Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:25:35.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:28:02.440Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:28:04.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:28:52.385Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:28:54.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:32:07.823Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:32:09.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:33:45.731Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:33:47.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:35:42.468Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:35:44.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:35:58.586Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:36:00.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:38:03.493Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:38:05.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:38:31.281Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:38:33.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:42:13.295Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:42:15.521Z"}
+error: 
+    status - 500 
+    message - Error: Book out of stock
+    at _callee$ (D:\NodeJS\BookStore\src\services\/cart.service.js:47:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-19T05:42:46.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:45:28.325Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:45:30.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:48:37.614Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:48:39.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:49:01.945Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:49:04.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:49:31.435Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:49:33.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:50:00.312Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:50:02.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:52:39.662Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:52:41.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T05:52:48.587Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T05:52:50.850Z"}
