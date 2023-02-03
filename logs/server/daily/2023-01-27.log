@@ -1,0 +1,16 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:23:32.434Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:23:34.875Z"}
+error: 
+    status - 500 
+    message - Error: book not exist in cart
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:79:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215890d05253301a4fda5d1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T14:09:53.485Z"}

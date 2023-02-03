@@ -2,8 +2,8 @@ import Joi from '@hapi/joi';
 
 export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
-    firstname: Joi.string().min(4).required(),
-    lastname: Joi.string().min(4).required(),
+    fullname: Joi.string().min(4).required(),
+    mobileNumber: Joi.required(),
     email: Joi.string().email().lowercase().required(),
     password: Joi.string().min(8).max(15).required()
   });

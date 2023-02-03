@@ -1,0 +1,63 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T06:31:42.576Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T06:31:45.433Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T08:12:45.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T08:15:49.761Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T08:15:52.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T08:19:17.482Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T08:19:20.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T08:20:07.686Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T08:20:10.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T08:20:45.105Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T08:20:47.734Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.number.required is not a function
+    at newUserValidator (D:\NodeJS\BookStore\src\validators\/user.validator.js:6:30)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\NodeJS\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\NodeJS\BookStore\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\NodeJS\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:328:13)
+    at D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\NodeJS\BookStore\node_modules\express\lib\router\index.js:280:10)
+    at D:\NodeJS\BookStore\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\NodeJS\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (D:\NodeJS\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\NodeJS\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T08:21:32.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T08:22:03.101Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T08:22:05.986Z"}

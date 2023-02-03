@@ -89,10 +89,11 @@ export const purchasedBook =async (body) =>{
     { isPurchased: true },
     { new: true }
     );
+    console.log('purchase')
     return cartData;
 }
 
-//get all notes
+//get all 
 export const getCartBooks = async (body) => {
   const cartData = await Cart.findOne({ userId: body.userId });
   return cartData;

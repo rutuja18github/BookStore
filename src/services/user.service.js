@@ -25,7 +25,7 @@ export const userSignin = async (body) => {
     console.log('Password', body.password);
     const result = await bcrypt.compare(body.password, data.password)
     if (result) {
-      var token = jwt.sign({ 'id': data.id, 'firstname': data.firstname, 'email': data.email }, process.env.SECRET_KEY);
+      var token = jwt.sign({ 'id': data.id, 'fullname': data.fullname, 'email': data.email,'mobileNumber': data.mobileNumber }, process.env.SECRET_KEY);
       return token;
     } else {
       throw new Error('Enter Password is invalid');

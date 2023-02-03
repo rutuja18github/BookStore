@@ -1,0 +1,78 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-19T19:21:14.018Z"}
+info: Connected to the database. {"timestamp":"2023-01-19T19:21:16.351Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/purchase 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-01-19T19:26:57.385Z"}
+error: 
+    status - 500 
+    message - ValidationError: Customer validation failed: mobileNumber: Cast to Number failed for value "Shinde" (type string) at path "mobileNumber"
+    at model.Document.invalidate (D:\NodeJS\BookStore\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (D:\NodeJS\BookStore\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (D:\NodeJS\BookStore\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\NodeJS\BookStore\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:4911:15)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:3157:22
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:3192:15
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee$ (D:\NodeJS\BookStore\src\services\/customer.service.js:16:45)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customer 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-19T20:52:50.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T02:26:43.020Z"}
+info: Connected to the database. {"timestamp":"2023-01-20T02:26:45.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T03:29:01.793Z"}
+info: Connected to the database. {"timestamp":"2023-01-20T03:29:04.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T08:17:34.370Z"}
+info: Connected to the database. {"timestamp":"2023-01-20T08:17:36.899Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/undefined 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-20T08:18:13.518Z"}
+error: 
+    status - 500 
+    message - Error: book not exist in cart
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:79:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215888305253301a4fda5cd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-20T09:03:44.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T10:28:45.807Z"}
+info: Connected to the database. {"timestamp":"2023-01-20T10:28:48.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T12:56:13.720Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-20T12:56:13.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T12:56:38.623Z"}
+info: Connected to the database. {"timestamp":"2023-01-20T12:56:42.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T16:14:52.679Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-20T16:14:52.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-20T16:15:24.736Z"}
+info: Connected to the database. {"timestamp":"2023-01-20T16:15:27.066Z"}

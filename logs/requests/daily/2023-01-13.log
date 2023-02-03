@@ -1,6 +1,0 @@
-info: ::1 - - [13/Jan/2023:09:11:27 +0000] "POST /api/v1/customer HTTP/1.1" 200 648 "-" "PostmanRuntime/7.30.0"
-
-info: ::1 - - [13/Jan/2023:09:37:28 +0000] "PUT /api/v1/cart/purchase HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
-
-info: ::1 - - [13/Jan/2023:09:39:05 +0000] "PUT /api/v1/cart/purchase HTTP/1.1" 200 660 "-" "PostmanRuntime/7.30.0"
-

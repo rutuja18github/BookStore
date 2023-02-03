@@ -1,0 +1,50 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-23T00:42:57.846Z"}
+info: Connected to the database. {"timestamp":"2023-01-23T00:43:00.057Z"}
+error: 
+    status - 500 
+    message - Error: book not exist in cart
+    at _callee2$ (D:\NodeJS\BookStore\src\services\/cart.service.js:79:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/6215890d05253301a4fda5d1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-23T01:16:44.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-23T07:47:43.482Z"}
+info: Connected to the database. {"timestamp":"2023-01-23T07:47:45.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-23T14:37:24.523Z"}
+info: Connected to the database. {"timestamp":"2023-01-23T14:37:29.958Z"}
+error: 
+    status - 500 
+    message - Error: Book out of stock
+    at _callee$ (D:\NodeJS\BookStore\src\services\/cart.service.js:47:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-23T16:19:20.522Z"}
+error: 
+    status - 500 
+    message - Error: Book out of stock
+    at _callee$ (D:\NodeJS\BookStore\src\services\/cart.service.js:47:13)
+    at tryCatch (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\NodeJS\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-23T16:20:20.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-23T17:27:44.685Z"}
+info: Connected to the database. {"timestamp":"2023-01-23T17:27:46.998Z"}

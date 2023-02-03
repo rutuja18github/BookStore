@@ -10,4 +10,7 @@ router.post('/:_id',userAuth, wishlistController.addToWishlist);
 //route to remove book from wishlist 
 router.put('/remove/:_id',userAuth, wishlistController.removeBook);
 
+//route to get wishlist
+router.get('/get',userAuth, wishlistController.getAll);
+
 export default router;

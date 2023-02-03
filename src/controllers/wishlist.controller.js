@@ -23,7 +23,21 @@ export const removeBook = async (req,res,next) =>{
         res.status(HttpStatus.OK).json({
         code:HttpStatus.OK,
         data:data,
-        message:'Book removed to wishlist successfully'
+        message:'Book removed from wishlist successfully'
+        })
+    }catch(error){
+        next(error);
+    }
+}
+
+//get all
+export const getAll = async (req,res,next) =>{
+    try{
+        const data= await wishlistService.getWishlistBooks(req.body);
+        res.status(HttpStatus.OK).json({
+        code:HttpStatus.OK,
+        data:data,
+        message:'Books fetch to wishlist successfully'
         })
     }catch(error){
         next(error);

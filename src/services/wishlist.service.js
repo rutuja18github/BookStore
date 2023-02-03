@@ -54,3 +54,9 @@ export const removeBookFromWishlist =async (_id , body) =>{
         throw new Error("Wishlist dosen't exist");
        }
 }
+
+//get all
+export const getWishlistBooks = async (body) => {
+    const wishlistData = await Wishlist.findOne({ userId: body.userId });
+    return wishlistData;
+  };

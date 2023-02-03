@@ -1,0 +1,216 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-22T06:15:43.921Z"}
+info: Connected to the database. {"timestamp":"2023-01-22T06:15:51.987Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T08:59:01.112Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T08:59:31.960Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:01:27.109Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:01:53.984Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:04:23.254Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:06:01.534Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:06:07.311Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:06:46.118Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:07:23.780Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:07:36.680Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:07:56.825Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:09:25.614Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:09:46.068Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\model.js:5087:32)
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4510:21
+    at D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\NodeJS\BookStore\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (D:\NodeJS\BookStore\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-22T09:09:55.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-22T09:10:34.790Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-01-22T09:10:34.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-22T12:59:06.227Z"}
+info: Connected to the database. {"timestamp":"2023-01-22T12:59:08.869Z"}
